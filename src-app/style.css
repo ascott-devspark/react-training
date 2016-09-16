@@ -1,0 +1,81 @@
+body {
+	font-family: Helvetica;
+}
+
+header {
+	padding: 10px;
+	background: #ddf;
+	font-size: 26px;
+	border: 2px solid black;
+}
+
+footer {
+	padding: 20px;
+	margin: 0;
+	background-color: #ddf;
+	clear: left;
+	color: #888;
+	font-size: .9rem;
+}
+
+h2 {
+	padding: 10px;
+	background: #ddd;
+}
+
+ul {
+}
+
+ul li {
+	list-style: none;
+	padding: 10px;
+	margin: 5px;
+	background: #eee;
+}
+
+input, button {
+	display: block;
+  height: 40px;
+  font-size: 24px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+	display: block;
+	height: 60px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.formAlert {
+	display: block;
+	border: 2px solid #aa7;
+	background: #ffa;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.sidebar {
+	width: 30%;
+	float: left;
+}
+
+.sidebar ul {
+	 padding-left: 0;
+}
+
+.content {
+	width: 68%;
+	float: left;
+	padding-left: 20px;
+}
+
+a.button-delete {
+	float: right;
+}
