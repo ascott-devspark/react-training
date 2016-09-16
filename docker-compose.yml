@@ -1,0 +1,15 @@
+docker-react-training-server:
+  build: .
+  dockerfile: Dockerfile.server
+  ports:
+    - "3033:3033"
+  volumes:
+    - ./src-app/api:/opt/nodeapps/training
+
+docker-react-training-client:
+  build: .
+  dockerfile: Dockerfile.client
+  ports:
+    - "8080:8080"
+  volumes:
+    - ./src-app:/opt/nodeapps/training
